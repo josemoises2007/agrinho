@@ -9,6 +9,35 @@
 canvas {
   display: block;
 }
+.q {
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            display: inline-block;
+            animation: shake 0.5s infinite;
+        }
+
+        .q h1 {
+            display: inline;
+            font-size: 48px;
+            animation: shake-h1 0.5s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(0); }
+        }
+
+        @keyframes shake-h1 {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+            75% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+        }
 
 .botonzito {
       width: 10px;
