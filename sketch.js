@@ -1,10 +1,10 @@
 let dialogue = [
-  { speaker: 'Jake', message: 'Finalmente conseguimos sair da cidade.', image: 'https://i.imgur.com/FmJGcXi.png', ashColor: 'rgb(4,0,78)', brockColor: 'blue' },
-  { speaker: 'Aisle', message: 'Sim, mas é triste deixar tudo para trás por causa da contaminação.', image: 'https://i.imgur.com/y0H1ZVe.png', ashColor: 'purple', brockColor: 'rgb(112,1,58)' },
-  { speaker: 'Jake', message: 'Precisamos aprender com isso. A sustentabilidade é crucial para o futuro.', image: 'https://i.imgur.com/FmJGcXi.png', ashColor: 'rgb(11,0,75)', brockColor: 'blue' },
-  { speaker: 'Aisle', message: 'Concordo. Devemos cuidar melhor do meio ambiente para que outras cidades não sofram o mesmo destino.', image: 'https://i.imgur.com/y0H1ZVe.png', ashColor: 'rgb(112,1,58)', brockColor: 'rgb(112,1,58)' },
-  { speaker: 'Jake', message: 'É uma nova chance para começar do zero e fazer as coisas da maneira certa.', image: 'https://i.imgur.com/FmJGcXi.png', ashColor: 'rgb(12,0,88)', brockColor: 'blue' },
-  { speaker: 'Aisle', message: 'Todos queremos um mundo mais sustentável e saudável para todos.', image: 'https://i.imgur.com/y0H1ZVe.png', ashColor: 'rgb(112,1,58)', brockColor: 'rgb(112,1,58)' },
+  { speaker: 'Jake', message: 'Finalmente conseguimos sair da cidade.<div class="q">clika<h1>"Q"</h1></div>', image: 'https://i.imgur.com/FmJGcXi.png', ashColor: 'rgb(4,0,78)', brockColor: 'blue' },
+  { speaker: 'Aisle', message: 'Sim, mas é triste deixar tudo para trás por causa da contaminação.<div class="q">clika<h1>"Q"</h1></div>', image: 'https://i.imgur.com/y0H1ZVe.png', ashColor: 'purple', brockColor: 'rgb(112,1,58)' },
+  { speaker: 'Jake', message: 'Precisamos aprender com isso. A sustentabilidade é crucial para o futuro.<div class="q">clika<h1>"Q"</h1></div>', image: 'https://i.imgur.com/FmJGcXi.png', ashColor: 'rgb(11,0,75)', brockColor: 'blue' },
+  { speaker: 'Aisle', message: 'Concordo. Devemos cuidar melhor do meio ambiente para que outras cidades não sofram o mesmo destino.', image: 'https://i.imgur.com/y0H1ZVe.png<div class="q">clika<h1>"Q"</h1></div>', ashColor: 'rgb(112,1,58)', brockColor: 'rgb(112,1,58)' },
+  { speaker: 'Jake', message: 'É uma nova chance para começar do zero e fazer as coisas da maneira certa.<div class="q">clika<h1>"Q"</h1></div>', image: 'https://i.imgur.com/FmJGcXi.png', ashColor: 'rgb(12,0,88)', brockColor: 'blue' },
+  { speaker: 'Aisle', message: 'Todos queremos um mundo mais sustentável e saudável para todos.<div class="q">clika<h1>"Q"</h1></div>', image: 'https://i.imgur.com/y0H1ZVe.png', ashColor: 'rgb(112,1,58)', brockColor: 'rgb(112,1,58)' },
   { speaker: 'Aisle', message: '.', image: 'https://i.imgur.com/y0H1ZVe.png', ashColor: 'rgb(112,1,58)', brockColor: 'rgb(112,1,58)' }
 ];
 let message = "Obrigado por ter chegado até o final do jogo";
