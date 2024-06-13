@@ -643,7 +643,7 @@ function draw() {
 
   fill(255);
   textSize(20);
-text('Pontuação: ' + points+'/3', 10, 30);translate(cameraOffset.x, cameraOffset.y);
+text('Pontuação: ' + points+'/9', 10, 30);translate(cameraOffset.x, cameraOffset.y);
     
 let targetX = personaje.position.x;
 cuadrado.dibujar();
